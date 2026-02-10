@@ -3,18 +3,9 @@ export default {
     Name: 'Contexto rural energético.',
     Description:
       'Este material de formación introduce al aprendiz en el panorama de la energización en Colombia. Su objetivo es establecer la base conceptual necesaria para el análisis de alternativas. El documento aborda la problemática central de las Zonas No Interconectadas (ZNI), detallando sus desafíos sociales, económicos y ambientales. Adicionalmente, el material proporciona el marco institucional y normativo clave (MME, IPSE, CREG) y la clasificación fundamental de las fuentes de energía (convencionales y no convencionales), permitiendo al aprendiz describir e interpretar el escenario actual y la justificación para la búsqueda de soluciones sostenibles y descentralizadas.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -99,19 +90,21 @@ export default {
   complementario: [
     {
       tema: 'La problemática y el contexto nacional',
-      referencia: '',
+      referencia:
+        'IPSE. (2023). ¿Te imaginas vivir sin electricidad? Para muchas personas en Colombia esta es una realidad cotidiana .',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=uSUA_wUdPI0',
     },
     {
       tema: 'Marco normativo e institucional',
-      referencia: '',
+      referencia: ' IPSE. (2022). ¿Qué son las Zonas No Interconectadas?',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4BBWlQXeBX0',
     },
     {
       tema: 'Clasificación y potencial de las fuentes energéticas',
-      referencia: '',
+      referencia:
+        'Ecología Verde. (2018). ENERGÍAS RENOVABLES y NO RENOVABLES - Tipos de energía.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Og6C1HyeaBs',
     },
@@ -138,7 +131,7 @@ export default {
         'fuentes de energía ampliamente utilizadas, con tecnología madura y alto volumen de producción, siendo en su mayoría los combustibles fósiles (carbón, petróleo y gas).',
     },
     {
-      termino: 'Fuente de energía no convencional (fnc)',
+      termino: 'Fuente de energía no convencional (FNC)',
       significado:
         'fuentes de energía de reciente desarrollo tecnológico en el país, o que se utilizan de forma marginal, siendo las renovables (solar, eólica, biomasa) el principal ejemplo.',
     },
@@ -148,12 +141,12 @@ export default {
         'servicio de suministro eléctrico que no es continuo (24 horas al día), sino que se restringe a horarios limitados (ejemplo: 4 a 6 horas diarias), común en las zni que dependen del diésel.',
     },
     {
-      termino: 'Ipse',
+      termino: 'IPSE',
       significado:
         'siglas del instituto de planificación y promoción de soluciones energéticas para las zonas no interconectadas. es la entidad promotora del gobierno nacional para la electrificación rural.',
     },
     {
-      termino: 'Pner',
+      termino: 'PNER',
       significado:
         'siglas del plan nacional de electrificación rural. es el programa que establece la estrategia y las metas del gobierno para llevar cobertura eléctrica a las zonas rurales dispersas de colombia.',
     },
@@ -163,14 +156,14 @@ export default {
         'principio basado en el equilibrio de los tres pilares (social, económico y ambiental) para asegurar que el suministro de energía sea equitativo, accesible y que minimice el daño al medio ambiente.',
     },
     {
-      termino: 'Sistema interconectado nacional (sin)',
+      termino: 'Sistema interconectado nacional (SIN)',
       significado:
         'red extensa de infraestructura de generación, transmisión y distribución eléctrica que cubre la mayor parte del territorio colombiano. las grandes ciudades y la industria están conectadas a este sistema.',
     },
     {
-      termino: 'Zonas no interconectadas (zni)',
+      termino: 'Zonas no interconectadas (ZNI)',
       significado:
-        'áreas geográficas que, por su lejanía, dispersión o alto costo logístico, no están físicamente conectadas a la red principal del sin. es el foco de la problemática analizada.',
+        'áreas geográficas que, por su lejanía, dispersión o alto costo logístico, no están físicamente conectadas a la red principal del SIN. es el foco de la problemática analizada.',
     },
   ],
   referencias: [
@@ -237,12 +230,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -252,9 +245,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Gianmarco Serrano Cabarcas',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -262,17 +260,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Julian Fernando Vanegas Vega',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -282,13 +280,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: '-- ',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

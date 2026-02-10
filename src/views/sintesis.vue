@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. 
+    p Este componente formativo integra tres ejes esenciales. En primer lugar, contextualiza la problemática de las Zonas No Interconectadas (ZNI), explicando sus condiciones de aislamiento, las limitaciones de acceso al Sistema Interconectado Nacional y las consecuencias sociales, económicas y ambientales asociadas a la falta de un suministro energético continuo, lo que evidencia la necesidad de soluciones sostenibles. En segundo lugar, presenta el marco normativo e institucional, permitiendo al aprendiz reconocer el rol de las principales entidades del sector energético y comprender la política pública que orienta la electrificación rural. Finalmente, desarrolla la clasificación y el potencial de las fuentes energéticas, brindando los conceptos básicos para diferenciar entre fuentes convencionales y no convencionales, y para identificar el uso estratégico de tecnologías renovables como la solar, eólica y biomasa en contextos rurales. 
     
 
     .row.justify-content-center
