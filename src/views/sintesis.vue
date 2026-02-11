@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="Este componente formativo aborda la situación de las Zonas No Interconectadas (ZNI), el marco normativo e institucional que orienta la electrificación rural y la clasificación de las fuentes energéticas, permitiendo al aprendiz comprender la problemática, reconocer los actores del sector y valorar el potencial de las energías renovables en el contexto rural.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
