@@ -51,8 +51,18 @@
   color: $color-sistema-texto !important
 figcaption 
     font-weight: normal !important
+    background-color: #E8E8E8 !important
+.bloque-texto-g.color-adicional-1
+    background-color: #C5D9B9;
+.bloque-texto-g.color-adicional-2
+    background-color: #E5F6FF;
+.tabla-b.color-primario thead tr
+    background-color: $color-primario !important
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
+    background-color: #fff !important
+.tabla-b tr:nth-child(odd), .tabla-c tr:nth-child(odd)
+    background-color: #F0F5ED
 
-    background-color: #D2C3DD !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -67,10 +77,23 @@ figcaption
 .bg-color
   &-1
     background-color: #DFF8FD
+  &-2
+    background-color: #003B59
+  &-3
+    background-color: #E8F6EB
+  &-4
+    background-color: #99DCFF
+  &-5
+    background-color: #fff
 
 .br
   &-1
-    border-radius: 10px !important
+    border-radius: 20px !important
+  &-2
+    border-right: 1px solid #AFAFAF !important
+    border-bottom: 1px solid #AFAFAF !important
+  &-3
+    border-bottom: 1px solid #AFAFAF !important
 
 .ml-cus
   &-1
@@ -81,7 +104,31 @@ figcaption
     height: 750px !important
 
       
+.titulo-icono
+  background-color: #E5F6FF
+  border-radius: 10px
+  width: fit-content
+  position: relative;
+  left: 15px;
+  &-text
+    margin-right: 10px
+    margin-left: 40px;
+    color: $color-sistema-texto !important
+  &-img
+    padding: 0px
+    position: absolute
+    top: -6px
+    left: 5px
 
+
+    &:before
+      position: relative
+      border-radius: 60px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -102,6 +149,8 @@ figcaption
    background-image: none !important
   .banner-principal__img
     display: none !important
+  .bloque-texto-g 
+    padding-top: 50px !important;
   
   
 //// TABLET MINI 768--------------------------------------
@@ -117,3 +166,6 @@ figcaption
     margin-bottom: 2em  !important
   .banner-principal .tarjeta
     background-color: $color-primario !important
+  .bloque-texto-g 
+    padding-top: 20px !important;
+
