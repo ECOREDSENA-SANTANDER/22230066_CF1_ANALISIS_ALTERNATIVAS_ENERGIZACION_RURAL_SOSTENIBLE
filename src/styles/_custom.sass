@@ -63,7 +63,39 @@ figcaption
 .tabla-b tr:nth-child(odd), .tabla-c tr:nth-child(odd)
     background-color: #F0F5ED
 
+.tabla-a.color-acento-contenido thead 
+    background-color: #E5F6FF !important
+.tabla-a.tabla-cus th,
+.tabla-a.tabla-cus td
+    text-align: left !important
 
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #E8F6EB
+      background-repeat: no-repeat
+      background-size: cover
+      h4 
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 5.85rem ))
+    background-color: #E8F6EB
+    h4
+      color: $color-sistema-texto
+  @media (min-width:390px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.8em
+      
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -85,6 +117,8 @@ figcaption
     background-color: #99DCFF
   &-5
     background-color: #fff
+  &-6
+    background-color: #F0F5ED
 
 .br
   &-1
@@ -102,6 +136,7 @@ figcaption
 .hcard
   &-1
     height: 750px !important
+
 
       
 .titulo-icono
