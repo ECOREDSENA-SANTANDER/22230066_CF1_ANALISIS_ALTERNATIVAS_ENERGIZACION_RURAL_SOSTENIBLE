@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Contexto rural energético.',
+    Name: 'Contexto rural energético',
     Description:
       'Este material de formación introduce al aprendiz en el panorama de la energización en Colombia. Su objetivo es establecer la base conceptual necesaria para el análisis de alternativas. El documento aborda la problemática central de las Zonas No Interconectadas (ZNI), detallando sus desafíos sociales, económicos y ambientales. Adicionalmente, el material proporciona el marco institucional y normativo clave (MME, IPSE, CREG) y la clasificación fundamental de las fuentes de energía (convencionales y no convencionales), permitiendo al aprendiz describir e interpretar el escenario actual y la justificación para la búsqueda de soluciones sostenibles y descentralizadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -91,7 +91,7 @@ export default {
     {
       tema: 'La problemática y el contexto nacional',
       referencia:
-        'IPSE. (2023). ¿Te imaginas vivir sin electricidad? Para muchas personas en Colombia esta es una realidad cotidiana .',
+        'IPSE. (2023). ¿Te imaginas vivir sin electricidad? Para muchas personas en Colombia esta es una realidad cotidiana.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=uSUA_wUdPI0',
     },
@@ -131,7 +131,7 @@ export default {
         'fuentes de energía ampliamente utilizadas, con tecnología madura y alto volumen de producción, siendo en su mayoría los combustibles fósiles (carbón, petróleo y gas).',
     },
     {
-      termino: 'Fuente de energía no convencional (FNC)',
+      termino: 'Fuente de Energía No Convencional (FNC)',
       significado:
         'fuentes de energía de reciente desarrollo tecnológico en el país, o que se utilizan de forma marginal, siendo las renovables (solar, eólica, biomasa) el principal ejemplo.',
     },
@@ -148,7 +148,7 @@ export default {
     {
       termino: 'PNER',
       significado:
-        'siglas del plan nacional de electrificación rural. es el programa que establece la estrategia y las metas del gobierno para llevar cobertura eléctrica a las zonas rurales dispersas de colombia.',
+        'siglas del plan nacional de electrificación rural. es el programa que establece la estrategia y las metas del gobierno para llevar cobertura eléctrica a las zonas rurales dispersas de Colombia.',
     },
     {
       termino: 'Sostenibilidad energética',
@@ -156,12 +156,12 @@ export default {
         'principio basado en el equilibrio de los tres pilares (social, económico y ambiental) para asegurar que el suministro de energía sea equitativo, accesible y que minimice el daño al medio ambiente.',
     },
     {
-      termino: 'Sistema interconectado nacional (SIN)',
+      termino: 'Sistema Interconectado Nacional (SIN)',
       significado:
         'red extensa de infraestructura de generación, transmisión y distribución eléctrica que cubre la mayor parte del territorio colombiano. las grandes ciudades y la industria están conectadas a este sistema.',
     },
     {
-      termino: 'Zonas no interconectadas (ZNI)',
+      termino: 'Zonas No Interconectadas (ZNI)',
       significado:
         'áreas geográficas que, por su lejanía, dispersión o alto costo logístico, no están físicamente conectadas a la red principal del SIN. es el foco de la problemática analizada.',
     },
@@ -175,7 +175,7 @@ export default {
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2021). Ley 2099 de 2021: Por medio de la cual se dictan disposiciones para la Transición Energética, la dinamización del Mercado Energético, la reactivación económica del país y se dictan otras disposiciones. Diario Oficial No. 51.738.',
+        'Congreso de la República de Colombia. (2021). Ley 2099 de 2021. Por medio de la cual se dictan disposiciones para la Transición Energética, la dinamización del Mercado Energético, la reactivación económica del país y se dictan otras disposiciones. Diario Oficial No. 51.738.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=166326',
     },
@@ -280,13 +280,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: 'Yineth González Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '-- ',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Laura Gelvez',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

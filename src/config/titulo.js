@@ -1,1 +1,1 @@
-module.exports = 'Contexto rural energético.'
+module.exports = 'Contexto rural energético'

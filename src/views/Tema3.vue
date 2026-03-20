@@ -36,7 +36,7 @@
               h4.text-center.mb-0 Fuentes renovables y no renovables
             p.mb-0.text-center Las fuentes renovables se caracterizan por provenir de recursos naturales que se regeneran de forma continua, como el sol, el viento, el agua y la biomasa. En contraste, las fuentes no renovables dependen de recursos finitos, cuya disponibilidad disminuye con su uso, como el carbón, el petróleo y el gas natural.
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        p.mb-0  #[b Tabla 4.] Clasificación fundamental fuentes de energía
+        p.mb-0  #[b Tabla 4.] Clasificación fundamental de fuentes de energía
       .tabla-a.color-acento-contenido.mb-5.tabla-cus(data-aos="fade-right")
         table
           thead
@@ -70,7 +70,7 @@
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
-          h3.mb-0.titulo-icono-text.px-0.py-2 Fuentes Renovables para el Contexto Rural
+          h3.mb-0.titulo-icono-text.px-0.py-2 Fuentes renovables para el contexto rural
 
       p.mb-5(data-aos="fade-right") Las #[b FNCER] representan las alternativas más viables para las #[b ZNI], gracias a su carácter #[b modular, descentralizado y ambientalmente limpio], lo que facilita su adaptación a las condiciones locales y su implementación sostenible en territorios apartados.
 
@@ -87,7 +87,7 @@
             tr
               td.fw-bold Energía solar fotovoltaica
               td Convierte la radiación solar en electricidad de corriente continua (DC) mediante paneles solares.
-              td Es la tecnología más utilizada en sistemas aislados individuales (SHS), debido a su bajo mantenimiento y a la alta disponibilidad de radiación solar en gran parte del territorio colombiano.
+              td Es la tecnología más utilizada en sistemas aislados individuales (#[i SHS]), debido a su bajo mantenimiento y a la alta disponibilidad de radiación solar en gran parte del territorio colombiano.
             tr
               td.fw-bold Energía eólica
               td Aprovecha la energía del viento para mover las palas de un aerogenerador y generar electricidad.

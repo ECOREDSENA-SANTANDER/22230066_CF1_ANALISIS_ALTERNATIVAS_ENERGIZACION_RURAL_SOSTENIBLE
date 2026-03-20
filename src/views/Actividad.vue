@@ -99,7 +99,7 @@ export default {
         {
           id: 4,
           texto:
-            'La principal limitación para el desarrollo productivo en las ZNI con generación diésel es que el servicio es continuo (24/7), pero su alto costo impide la instalación de maquinaria.',
+            'La principal limitación para el desarrollo productivo en las ZNI con generación diésel es que el servicio es continuo (24 / 7), pero su alto costo impide la instalación de maquinaria.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -168,7 +168,7 @@ export default {
         {
           id: 7,
           texto:
-            'La energía solar fotovoltaica es ideal para sistemas aislados (off-grid) en ZNI debido a su naturaleza modular, bajo mantenimiento y alta disponibilidad de radiación solar en la mayor parte del territorio colombiano.',
+            'La energía solar fotovoltaica es ideal para sistemas aislados (<i>off-grid</i>) en ZNI debido a su naturaleza modular, bajo mantenimiento y alta disponibilidad de radiación solar en la mayor parte del territorio colombiano.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

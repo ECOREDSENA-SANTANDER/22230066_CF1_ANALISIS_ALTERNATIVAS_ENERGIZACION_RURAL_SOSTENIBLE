@@ -40,7 +40,7 @@
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Energía y desarrollo sostenible
       
-      p.mb-5(data-aos="fade-right") La energía no es únicamente un commodity; constituye un pilar fundamental para el desarrollo humano, la equidad social y el bienestar colectivo. El acceso a un suministro eléctrico confiable y de calidad es reconocido a nivel global como un factor clave para el fortalecimiento de la salud, la educación, la productividad y la generación de oportunidades económicas, especialmente en contextos rurales y territorios apartados.
+      p.mb-5(data-aos="fade-right") La energía no es únicamente un #[i commodity]; constituye un pilar fundamental para el desarrollo humano, la equidad social y el bienestar colectivo. El acceso a un suministro eléctrico confiable y de calidad es reconocido a nivel global como un factor clave para el fortalecimiento de la salud, la educación, la productividad y la generación de oportunidades económicas, especialmente en contextos rurales y territorios apartados.
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-6
@@ -82,7 +82,7 @@
         .bloque-texto-g__texto.p-4.d-flex.flex-column
           p.mb-3 El Sistema Interconectado Nacional (SIN) es la columna vertebral de la infraestructura eléctrica colombiana. Sin embargo, una parte significativa del territorio nacional se clasifica como Zonas No Interconectadas (ZNI).
           p.mb-3 Las ZNI están distribuidas principalmente en áreas de frontera, Amazonía y la Costa Pacífica, y a menudo son hogar de comunidades étnicas y rurales. Esta condición genera una realidad energética precaria.
-          p.mb-0 El Artículo 1 de la Ley 855 de 2003, se establece que “para todos los efectos relacionados con la prestación del servicio público de energía eléctrica se entiende por Zonas No Interconectadas a los municipios, corregimientos, localidades y caseríos no conectados al Sistema Interconectado Nacional”
+          p.mb-0 El Artículo 1 de la Ley 855 de 2003 establece que “para todos los efectos relacionados con la prestación del servicio público de energía eléctrica se entiende por Zonas No Interconectadas a los municipios, corregimientos, localidades y caseríos no conectados al Sistema Interconectado Nacional”.
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -95,7 +95,7 @@
                 img(src='@/assets/curso/temas/t1/6.svg', alt='')
               .col-sm-12.col-lg-10
                   p.mb-0 De acuerdo con el CNM, para el año 2023 se identificaron 1750 localidades ZNI, sin embargo, únicamente se realizó el monitoreo de aproximadamente 252.000 usuarios residenciales rurales, correspondiente a 134 localidades, es decir el 11 % del total, en su mayoría atendidos por sistemas de generación con diésel como combustible, esto teniendo en cuenta que en su mayoría cuentan con una densidad poblacional importante, lo que genera facilidad de acceso para la información.
-          p.mb-0 Cabe destacar que para las localidades que cuentan con seguimiento del CNM, únicamente el 34 % de los usuarios reportan 24 horas continuas de servicio de energía eléctrica, y con mayor proporción en un promedio de 5 a 10 horas diarias se reportan cerca del 41% de los usuarios centralizados.
+          p.mb-0 Cabe destacar que para las localidades que cuentan con seguimiento del CNM, únicamente el 34 % de los usuarios reportan 24 horas continuas de servicio de energía eléctrica, y con mayor proporción en un promedio de 5 a 10 horas diarias se reportan cerca del 41 % de los usuarios centralizados.
 
       .bloque-texto-g.bloque-texto-g--inverso.color-adicional-2.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
@@ -161,7 +161,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-10
           .bg-color-4.p-5.mb-2.br-1
-                p.mb-0 La generación eléctrica en las ZNI se realiza, en su mayoría, mediante plantas que operan con diésel, cuyo combustible debe ser transportado a través de rutas complejas y de alto costo logístico. Esta situación deriva en un suministro intermitente, con una disponibilidad limitada de energía que suele oscilar entre 4 y 6 horas diarias, lo que restringe el uso productivo del servicio en horarios nocturnos y matutinos. Asimismo, los elevados costos operacionales (OPEX) hacen que el precio del kilovatio - hora (kWh) sea considerablemente superior al del Sistema Interconectado Nacional (SIN), pudiendo alcanzar valores hasta cinco veces mayores.
+                p.mb-0 La generación eléctrica en las ZNI se realiza, en su mayoría, mediante plantas que operan con diésel, cuyo combustible debe ser transportado a través de rutas complejas y de alto costo logístico. Esta situación deriva en un suministro intermitente, con una disponibilidad limitada de energía que suele oscilar entre 4 y 6 horas diarias, lo que restringe el uso productivo del servicio en horarios nocturnos y matutinos. Asimismo, los elevados costos operacionales (#[i OPEX]) hacen que el precio del kilovatio - hora (kWh) sea considerablemente superior al del Sistema Interconectado Nacional (SIN), pudiendo alcanzar valores hasta cinco veces mayores.
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-7.p-5.bg-color-3       
@@ -177,24 +177,24 @@
         table
           thead
             tr
-              th.w-25 Dimensión
+              th.w-cus-3 Dimensión
               th Consecuencia
               th Descripción
           tbody
             tr
               td.br-2.fw-bold(rowspan="2").bg-color-5 Técnica / Operativa
-              td.br-2 Consecuencia Generación intermitente.
+              td.br-2 Generación intermitente.
               td.br-3 Suministro eléctrico limitado a pocas horas diarias (4 a 6 horas), lo que restringe el uso continuo y productivo de la energía.
             tr
-              td.br-2 Altos costos operacionales (OPEX).
+              td.br-2 Altos costos operacionales (#[i OPEX]).
               td.br-3 Dependencia del diésel con altos costos de transporte, lo que incrementa significativamente el precio final del kWh frente al SIN.  
 
             tr
               td.br-2.fw-bold(rowspan="2").bg-color-5 Socioeconómica
               td.br-2 Afectaciones en salud y educación.
-              td.br-3 Baja productividad local.
+              td.br-3 Limitaciones para la refrigeración de medicamentos y vacunas, y reducción del acceso a tecnologías y horarios extendidos en centros educativos.
             tr
-              td.br-2 Limitaciones para la refrigeración de medicamentos y vacunas, y reducción del acceso a tecnologías y horarios extendidos en centros educativos.
+              td.br-2  Baja productividad local.
               td.br-3 Imposibilidad de operar microempresas, conservar alimentos y desarrollar actividades económicas sostenibles.
 
             tr
