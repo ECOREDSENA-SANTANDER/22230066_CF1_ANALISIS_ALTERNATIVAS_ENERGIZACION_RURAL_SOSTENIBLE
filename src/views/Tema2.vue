@@ -217,7 +217,7 @@
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
-          h3.mb-0.titulo-icono-text.px-0.py-2 Fundamentos de la Política Pública:
+          h3.mb-0.titulo-icono-text.px-0.py-2 Fundamentos de la política pública:
 
       p.mb-5(data-aos="fade-right") El marco legal colombiano promueve activamente el desarrollo de las Energías Renovables No Convencionales (#[b ERNC]), reconociéndolas como el camino más viable para lograr la cobertura total en las ZNI.
       .row.align-items-center.mb-0(data-aos="fade-right")

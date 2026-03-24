@@ -61,11 +61,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -170,64 +165,42 @@ export default {
     {
       referencia:
         'Comisión de Regulación de Energía y Gas (CREG). (2020). Estructura tarifaria del servicio de energía eléctrica. (Resolución CREG 015 de 2018 y sus modificaciones).',
-      link:
-        'https://gestornormativo.creg.gov.co/gestor/entorno/docs/resolucion_creg_0015_2018.htm',
     },
     {
       referencia:
         'Congreso de la República de Colombia. (2021). Ley 2099 de 2021. Por medio de la cual se dictan disposiciones para la Transición Energética, la dinamización del Mercado Energético, la reactivación económica del país y se dictan otras disposiciones. Diario Oficial No. 51.738.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=166326',
     },
     {
       referencia:
         'Departamento Nacional de Planeación (DNP). (2022). Plan Nacional de Desarrollo 2022-2026: Colombia Potencia Mundial de la Vida. (Capítulo sobre Transición Energética).',
-      link: 'https://www.dnp.gov.co/plan-nacional-desarrollo/pnd-2022-2026',
     },
     {
       referencia:
         'Ellen MacArthur Foundation. (2017). Towards a Circular Economy: A business case for energy efficiency.',
-      link:
-        'https://content.ellenmacarthurfoundation.org/m/4384c08da576329c/original/Towards-a-circular-economy-Business-rationale-for-an-accelerated-transition.pdf',
     },
     {
       referencia:
         'IPSE. (2023). Caracterización de las ZNI. Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas.',
-      link: 'https://ipse.gov.co/cnm/caracterizacion-energetica-de-las-zni/',
     },
     {
       referencia:
         'Naciones Unidas. (1987). Informe de la Comisión Mundial sobre Medio Ambiente y Desarrollo: Nuestro Futuro Común (Informe Brundtland). Asamblea General de las Naciones Unidas.',
-      link:
-        'https://www.ecominga.uqam.ca/PDF/BIBLIOGRAPHIE/GUIDE_LECTURE_1/CMMAD-Informe-Comision-Brundtland-sobre-Medio-Ambiente-Desarrollo.pdf',
     },
     {
       referencia:
         'Oikonomou, V. A., Gielen, D. J., & Rübbelke, D. (2020). Energy Efficiency and the Three Pillars of Sustainable Development: A Concise Review. Energy Policy, 137(1), 111100.',
-      link:
-        'https://www.ecominga.uqam.ca/PDF/BIBLIOGRAPHIE/GUIDE_LECTURE_1/CMMAD-Informe-Comision-Brundtland-sobre-Medio-Ambiente-Desarrollo.pdf',
     },
     {
       referencia:
         'Rincón, J. M., & Rincón, A. E. (2021). Análisis de Ciclo de Vida (ACV) como herramienta para la evaluación de sostenibilidad de proyectos energéticos. Revista de la Escuela Colombiana de Ingeniería, 120(2), 54-67.',
-      link:
-        'https://www.raco.cat/index.php/afinidad/article/download/276501/364433',
     },
     {
       referencia:
         'UPME. (2025). Guías Plan Energético Rural Sostenible (PERS). Sistema de Información Minero Energético de Colombia (SIMEC).',
-      link:
-        'https://www.upme.gov.co/simec/planeacion-energetica/plan-energetico-rural-sostenible-pers/guias-pers/',
     },
     {
       referencia:
         'UPME. (2019). Plan Indicativo de Expansión de Cobertura (PIEC) 2019-2023. Unidad de Planeación Minero Energética.',
-      link: 'https://www1.upme.gov.co/siel/PIEC/2019-23/PIEC_2019-2023_VF.pdf',
-    },
-  ],
-  creditos: [
-    {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
