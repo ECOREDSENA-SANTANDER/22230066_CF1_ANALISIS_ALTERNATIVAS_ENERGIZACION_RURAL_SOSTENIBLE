@@ -258,12 +258,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth González Quintero',
+          nombre: 'Yineth Ibette González Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Gelvez',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
