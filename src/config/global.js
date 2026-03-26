@@ -201,6 +201,11 @@ export default {
     {
       referencia:
         'UPME. (2019). Plan Indicativo de Expansión de Cobertura (PIEC) 2019-2023. Unidad de Planeación Minero Energética.',
+    },
+  ],
+  creditos: [
+    {
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
