@@ -2,7 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-  
 
       #Actividad_Cuestionario
       <Actividad :cuestionario="cuestionario"/>
@@ -19,13 +18,13 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema: 'Contexto rural energético',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales del componente formativo.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -42,6 +41,16 @@ export default {
             {
               id: 'b',
               texto: 'Conexión directa al sistema eléctrico nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aislamiento geográfico y energético.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Exceso de energía disponible.',
               esCorrecta: false,
             },
           ],
@@ -67,6 +76,16 @@ export default {
               texto: 'Limitación en servicios básicos.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Aumento del turismo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducción del costo de vida.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -88,6 +107,16 @@ export default {
               id: 'b',
               texto: 'Sistema Interconectado Nacional.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sistemas híbridos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Generadores locales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -111,6 +140,16 @@ export default {
               texto: 'Incremento del empleo.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Desarrollo industrial acelerado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Limitación en actividades productivas.',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -131,6 +170,16 @@ export default {
             {
               id: 'b',
               texto: 'Para reemplazar todas las tecnologías.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Para garantizar energía continua y limpia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Para eliminar la energía renovable.',
               esCorrecta: false,
             },
           ],
@@ -156,6 +205,16 @@ export default {
               texto: 'Alternativas.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'No convencionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Convencionales.',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -177,6 +236,16 @@ export default {
             {
               id: 'b',
               texto: 'Carbón.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Energía solar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Diésel.',
               esCorrecta: false,
             },
           ],
@@ -201,6 +270,16 @@ export default {
               texto: 'Comisión de Regulación de Energía y Gas.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Ministerio de Agricultura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Departamento Nacional de Planeación.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -223,6 +302,16 @@ export default {
               texto: 'Reducir el uso de tecnología.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Aumentar el consumo urbano.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Garantizar acceso a energía en zonas apartadas.',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -243,6 +332,16 @@ export default {
             {
               id: 'b',
               texto: 'Hidráulica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Biomasa.',
               esCorrecta: false,
             },
           ],
@@ -267,6 +366,16 @@ export default {
               texto: 'Son inagotables a corto plazo.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Generan residuos tóxicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Requieren combustibles fósiles.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -288,6 +397,16 @@ export default {
             {
               id: 'b',
               texto: 'Aumento de biodiversidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Contaminación y emisiones de CO₂.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Mejora del clima.',
               esCorrecta: false,
             },
           ],
@@ -312,6 +431,16 @@ export default {
               texto: 'Eólica.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Geotérmica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Nuclear.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -332,6 +461,16 @@ export default {
             {
               id: 'b',
               texto: 'Reducir la producción energética.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Orientar políticas públicas. x',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Privatizar todos los servicios',
               esCorrecta: false,
             },
           ],
@@ -356,6 +495,16 @@ export default {
               texto: 'Energía del viento.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Materia orgánica utilizada para producir energía.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Energía nuclear.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -376,6 +525,16 @@ export default {
             {
               id: 'b',
               texto: 'Alta conectividad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Acceso limitado a energía continua.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sobreproducción energética.',
               esCorrecta: false,
             },
           ],
@@ -400,6 +559,16 @@ export default {
               texto: 'Energías renovables descentralizadas.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Grandes plantas térmicas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Centrales hidroeléctricas gigantes.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -420,6 +589,16 @@ export default {
             {
               id: 'b',
               texto: 'Ministerio de Cultura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Policía Nacional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Alcaldías locales únicamente.',
               esCorrecta: false,
             },
           ],
@@ -444,6 +623,16 @@ export default {
               texto: 'Reducir costos únicamente.',
               esCorrecta: false,
             },
+            {
+              id: 'c',
+              texto: 'Mejorar sostenibilidad ambiental.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el acceso energético.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el Contexto rural energético.',
@@ -466,6 +655,16 @@ export default {
               id: 'b',
               texto: 'Alta contaminación.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Dependencia de combustibles fósiles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Bajo impacto ambiental.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
