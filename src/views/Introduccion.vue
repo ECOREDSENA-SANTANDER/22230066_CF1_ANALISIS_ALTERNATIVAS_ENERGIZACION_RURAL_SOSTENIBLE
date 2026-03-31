@@ -26,8 +26,9 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/c3kVS7njxtQ?si=H-_qyNPY78VubjEN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Análisis de alternativas para la energización rural sostenible
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/DjUIySB8Ue0?si=uCk5Hf9bworHtx6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Contexto rural energético
+
 
 </template>
 
