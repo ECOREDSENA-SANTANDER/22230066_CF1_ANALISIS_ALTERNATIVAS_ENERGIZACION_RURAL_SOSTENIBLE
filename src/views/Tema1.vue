@@ -16,8 +16,8 @@
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/2.svg', alt='')
             .col-sm-12.col-lg-10
-                p.mb-0 Este componente formativo introduce la pertinencia del curso, al definir el panorama energético de Colombia y fundamentar la necesidad de promover soluciones basadas en fuentes renovables. Uno de los principales retos del país, y de vital importancia para el desarrollo territorial, es garantizar un suministro de energía eléctrica confiable, 
-          p.mb-0 continuo y sostenible para las comunidades rurales y poblaciones apartadas que actualmente no cuentan con este servicio. El acceso a la energía constituye un servicio público esencial y un factor determinante para el desarrollo socioeconómico, la reducción de brechas y el mejoramiento de la calidad de vida en estas regiones.
+                p.mb-3 Este componente formativo introduce la pertinencia del curso, al definir el panorama energético de Colombia y fundamentar la necesidad de promover soluciones basadas en fuentes renovables. Uno de los principales retos del país, y de vital importancia para el desarrollo territorial, es garantizar un suministro de energía eléctrica confiable, continuo y sostenible para las comunidades rurales y poblaciones apartadas que actualmente no cuentan con este servicio.
+          p.mb-0 El acceso a la energía constituye un servicio público esencial y un factor determinante para el desarrollo socioeconómico, la reducción de brechas y el mejoramiento de la calidad de vida en estas regiones.
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -56,23 +56,23 @@
         table
           thead
             tr
-              th.w-25 Pilar
-              th Descripción
+              th.w-25.text-start Pilar
+              th.text-start Descripción
           tbody
             tr
-              td.fw-bold Social
-              td Garantizar la equidad y el acceso universal a la energía, asegurando la asequibilidad y la calidad del servicio, con el fin de mejorar la calidad de vida y promover el desarrollo social de las comunidades.
+              td.text-start.fw-bold Social
+              td.text-start Garantizar la equidad y el acceso universal a la energía, asegurando la asequibilidad y la calidad del servicio, con el fin de mejorar la calidad de vida y promover el desarrollo social de las comunidades.
             tr
-              td.fw-bold Economico
-              td Asegurar que el suministro energético sea económicamente viable y sostenible a largo plazo, reduciendo la dependencia de fuentes de energía costosas y volátiles, y optimizando los recursos disponibles.
+              td.text-start.fw-bold Económico
+              td.text-start Asegurar que el suministro energético sea económicamente viable y sostenible a largo plazo, reduciendo la dependencia de fuentes de energía costosas y volátiles, y optimizando los recursos disponibles.
             tr
-              td.fw-bold Ambiental
-              td Minimizar el impacto ecológico mediante la priorización del uso de fuentes de Energía Renovable No Convencionales (ERNC), contribuyendo a la reducción de las emisiones de Gases de Efecto Invernadero (GEI) y de la contaminación ambiental local.
+              td.text-start.fw-bold Ambiental
+              td.text-start Minimizar el impacto ecológico mediante la priorización del uso de fuentes de Energía Renovable No Convencionales (ERNC), contribuyendo a la reducción de las emisiones de Gases de Efecto Invernadero (GEI) y de la contaminación ambiental local.
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
-          h3.mb-0.titulo-icono-text.px-0.py-2 El Contexto de las Zonas No Interconectadas (ZNI)
+          h3.mb-0.titulo-icono-text.px-0.py-2 El contexto de las Zonas No Interconectadas (ZNI)
 
 
       .bloque-texto-g.bloque-texto-g--inverso.color-adicional-1.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
@@ -161,7 +161,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-10
           .bg-color-4.p-5.mb-2.br-1
-                p.mb-0 La generación eléctrica en las ZNI se realiza, en su mayoría, mediante plantas que operan con diésel, cuyo combustible debe ser transportado a través de rutas complejas y de alto costo logístico. Esta situación deriva en un suministro intermitente, con una disponibilidad limitada de energía que suele oscilar entre 4 y 6 horas diarias, lo que restringe el uso productivo del servicio en horarios nocturnos y matutinos. Asimismo, los elevados costos operacionales (#[i OPEX]) hacen que el precio del kilovatio - hora (kWh) sea considerablemente superior al del Sistema Interconectado Nacional (SIN), pudiendo alcanzar valores hasta cinco veces mayores.
+                p.mb-0 La generación eléctrica en las ZNI se realiza, en su mayoría, mediante plantas que operan con diésel, cuyo combustible debe ser transportado a través de rutas complejas y de alto costo logístico. Esta situación deriva en un suministro intermitente, con una disponibilidad limitada de energía que suele oscilar entre 4 y 6 horas diarias, lo que restringe el uso productivo del servicio en horarios nocturnos y matutinos. Asimismo, los elevados costos operacionales (OPEX) hacen que el precio del kilovatio - hora (kWh) sea considerablemente superior al del Sistema Interconectado Nacional (SIN), pudiendo alcanzar valores hasta cinco veces mayores.
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-7.p-5.bg-color-3       
@@ -177,30 +177,30 @@
         table
           thead
             tr
-              th.w-cus-3 Dimensión
-              th Consecuencia
-              th Descripción
+              th.text-start.w-cus-3 Dimensión
+              th.text-start Consecuencia
+              th.text-start Descripción
           tbody
             tr
-              td.br-2.fw-bold(rowspan="2").bg-color-5 Técnica / Operativa
-              td.br-2 Generación intermitente.
-              td.br-3 Suministro eléctrico limitado a pocas horas diarias (4 a 6 horas), lo que restringe el uso continuo y productivo de la energía.
+              td.text-start.br-2.fw-bold(rowspan="2").bg-color-5 Técnica / operativa
+              td.text-start.br-2 Generación intermitente.
+              td.text-start.br-3 Suministro eléctrico limitado a pocas horas diarias (4 a 6 horas), lo que restringe el uso continuo y productivo de la energía.
             tr
-              td.br-2 Altos costos operacionales (#[i OPEX]).
-              td.br-3 Dependencia del diésel con altos costos de transporte, lo que incrementa significativamente el precio final del kWh frente al SIN.  
+              td.text-start.br-2 Altos costos operacionales (#[i OPEX]).
+              td.text-start.br-3 Dependencia del diésel con altos costos de transporte, lo que incrementa significativamente el precio final del kWh frente al SIN.  
 
             tr
-              td.br-2.fw-bold(rowspan="2").bg-color-5 Socioeconómica
-              td.br-2 Afectaciones en salud y educación.
-              td.br-3 Limitaciones para la refrigeración de medicamentos y vacunas, y reducción del acceso a tecnologías y horarios extendidos en centros educativos.
+              td.text-start.br-2.fw-bold(rowspan="2").bg-color-5 Socioeconómica
+              td.text-start.br-2 Afectaciones en salud y educación.
+              td.text-start.br-3 Limitaciones para la refrigeración de medicamentos y vacunas, y reducción del acceso a tecnologías y horarios extendidos en centros educativos.
             tr
-              td.br-2  Baja productividad local.
-              td.br-3 Imposibilidad de operar microempresas, conservar alimentos y desarrollar actividades económicas sostenibles.
+              td.text-start.br-2  Baja productividad local.
+              td.text-start.br-3 Imposibilidad de operar microempresas, conservar alimentos y desarrollar actividades económicas sostenibles.
 
             tr
-              td.br-2.fw-bold.bg-color-5 Ambiental
-              td.br-2 Contaminación y riesgos ambientales.
-              td.br-3 Emisiones atmosféricas y acústicas, junto con riesgos por manejo de combustibles en ecosistemas sensibles.
+              td.text-start.br-2.fw-bold.bg-color-5 Ambiental
+              td.text-start.br-2 Contaminación y riesgos ambientales.
+              td.text-start.br-3 Emisiones atmosféricas y acústicas, junto con riesgos por manejo de combustibles en ecosistemas sensibles.
             
 
 

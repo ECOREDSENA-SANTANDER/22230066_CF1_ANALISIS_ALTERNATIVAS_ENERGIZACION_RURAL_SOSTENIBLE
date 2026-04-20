@@ -118,7 +118,7 @@ export default {
     {
       termino: 'Diésel',
       significado:
-        'combustible fósil derivado del petróleo, utilizado comúnmente en las zni para la generación eléctrica local mediante plantas térmicas. su alto costo e impacto ambiental justifican el análisis de alternativas.',
+        'combustible fósil derivado del petróleo, utilizado comúnmente en las ZNI para la generación eléctrica local mediante plantas térmicas. Su alto costo e impacto ambiental justifican el análisis de alternativas.',
     },
     {
       termino: 'Fuente de energía convencional',
@@ -133,17 +133,17 @@ export default {
     {
       termino: 'Generación intermitente',
       significado:
-        'servicio de suministro eléctrico que no es continuo (24 horas al día), sino que se restringe a horarios limitados (ejemplo: 4 a 6 horas diarias), común en las zni que dependen del diésel.',
+        'servicio de suministro eléctrico que no es continuo (24 horas al día), sino que se restringe a horarios limitados (ejemplo: 4 a 6 horas diarias), común en las ZNI que dependen del diésel.',
     },
     {
       termino: 'IPSE',
       significado:
-        'siglas del instituto de planificación y promoción de soluciones energéticas para las zonas no interconectadas. es la entidad promotora del gobierno nacional para la electrificación rural.',
+        'siglas del Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas. Es la entidad promotora del gobierno nacional para la electrificación rural.',
     },
     {
       termino: 'PNER',
       significado:
-        'siglas del plan nacional de electrificación rural. es el programa que establece la estrategia y las metas del gobierno para llevar cobertura eléctrica a las zonas rurales dispersas de Colombia.',
+        'siglas del Plan Nacional de Electrificación Rural. Es el programa que establece la estrategia y las metas del gobierno para llevar cobertura eléctrica a las zonas rurales dispersas de Colombia.',
     },
     {
       termino: 'Sostenibilidad energética',
@@ -153,12 +153,12 @@ export default {
     {
       termino: 'Sistema Interconectado Nacional (SIN)',
       significado:
-        'red extensa de infraestructura de generación, transmisión y distribución eléctrica que cubre la mayor parte del territorio colombiano. las grandes ciudades y la industria están conectadas a este sistema.',
+        'red extensa de infraestructura de generación, transmisión y distribución eléctrica que cubre la mayor parte del territorio colombiano. Las grandes ciudades y la industria están conectadas a este sistema.',
     },
     {
       termino: 'Zonas No Interconectadas (ZNI)',
       significado:
-        'áreas geográficas que, por su lejanía, dispersión o alto costo logístico, no están físicamente conectadas a la red principal del SIN. es el foco de la problemática analizada.',
+        'áreas geográficas que, por su lejanía, dispersión o alto costo logístico, no están físicamente conectadas a la red principal del SIN. Es el foco de la problemática analizada.',
     },
   ],
   referencias: [
@@ -263,7 +263,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

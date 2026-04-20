@@ -87,7 +87,7 @@
             tr
               td.fw-bold Energía solar fotovoltaica
               td Convierte la radiación solar en electricidad de corriente continua (DC) mediante paneles solares.
-              td Es la tecnología más utilizada en sistemas aislados individuales (#[i SHS]), debido a su bajo mantenimiento y a la alta disponibilidad de radiación solar en gran parte del territorio colombiano.
+              td Es la tecnología más utilizada en sistemas aislados individuales (SHS), debido a su bajo mantenimiento y a la alta disponibilidad de radiación solar en gran parte del territorio colombiano.
             tr
               td.fw-bold Energía eólica
               td Aprovecha la energía del viento para mover las palas de un aerogenerador y generar electricidad.
