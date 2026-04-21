@@ -186,7 +186,7 @@
               td.text-start.br-2 Generación intermitente.
               td.text-start.br-3 Suministro eléctrico limitado a pocas horas diarias (4 a 6 horas), lo que restringe el uso continuo y productivo de la energía.
             tr
-              td.text-start.br-2 Altos costos operacionales (#[i OPEX]).
+              td.text-start.br-2 Altos costos operacionales (OPEX).
               td.text-start.br-3 Dependencia del diésel con altos costos de transporte, lo que incrementa significativamente el precio final del kWh frente al SIN.  
 
             tr
