@@ -2,7 +2,7 @@
   <div>
     <div class="row align-items-center">
       <div class="d-none d-lg-block col-3">
-        <img :src="imagen" alt="" />
+        <img :src="imagen"  />
       </div>
       <div class="col">
         <div>

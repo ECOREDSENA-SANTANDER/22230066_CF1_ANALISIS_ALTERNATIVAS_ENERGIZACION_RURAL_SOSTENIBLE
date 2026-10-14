@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Contexto rural energético',
     Description:
-      'Este material de formación introduce al aprendiz en el panorama de la energización en Colombia. Su objetivo es establecer la base conceptual necesaria para el análisis de alternativas. El documento aborda la problemática central de las Zonas No Interconectadas (ZNI), detallando sus desafíos sociales, económicos y ambientales. Adicionalmente, el material proporciona el marco institucional y normativo clave (MME, IPSE, CREG) y la clasificación fundamental de las fuentes de energía (convencionales y no convencionales), permitiendo al aprendiz describir e interpretar el escenario actual y la justificación para la búsqueda de soluciones sostenibles y descentralizadas.',
+      'Este componente formativo introduce al aprendiz en el panorama de la energización en Colombia. Su objetivo es establecer la base conceptual necesaria para el análisis de alternativas. El documento aborda la problemática central de las Zonas No Interconectadas (ZNI), detallando sus desafíos sociales, económicos y ambientales. Adicionalmente, el material proporciona el marco institucional y normativo clave (MME, IPSE, CREG) y la clasificación fundamental de las fuentes de energía (convencionales y no convencionales), permitiendo al aprendiz describir e interpretar el escenario actual y la justificación para la búsqueda de soluciones sostenibles y descentralizadas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],

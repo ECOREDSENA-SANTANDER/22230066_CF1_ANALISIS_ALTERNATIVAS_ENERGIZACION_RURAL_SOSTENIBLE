@@ -2,7 +2,7 @@
   <div class="tarjeta--blanca">
     <div class="row align-items-center mb-4">
       <div class="col-auto">
-        <img src="@/assets/componentes/icon-actividad.svg" alt="" />
+        <img src="@/assets/componentes/icon-actividad.svg" />
       </div>
       <div class="col ">
         <h2 class="titulo-tercero mb-0">

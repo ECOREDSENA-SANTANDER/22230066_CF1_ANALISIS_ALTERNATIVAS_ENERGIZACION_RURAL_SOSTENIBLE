@@ -9,19 +9,19 @@
       
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/1.png', alt='')
+          img(src='@/assets/curso/temas/t2/1.png')
         .col-sm-12.col-lg-8
           p.mb-3 Este componente formativo desarrolla el #[b saber conceptual sobre la normativa colombiana en materia de electrificación], con el fin de que el aprendiz comprenda #[b  quiénes son los actores del sector energético], cuáles son sus funciones y #[b cómo se prioriza la inversión en las Zonas No Interconectadas (ZNI)].
           .bg-color-1.p-4.mb-4
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-2.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t2/2.svg', alt='')
+                img(src='@/assets/curso/temas/t2/2.svg')
               .col-sm-12.col-lg-10
                   p.mb-0 Para definir qué tipo de tecnología y qué recurso energético debe implementarse en las ZNI, el Gobierno Nacional ha asignado un papel clave a entidades como el #[b Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas (IPSE) y la Unidad de Planeación Minero Energética (UPME)].
           p.mb-0   Estas entidades se encargan de formular lineamientos, metodologías y herramientas técnicas que orientan la expansión de la cobertura del servicio de energía eléctrica en los territorios que no hacen parte del Sistema Interconectado Nacional (SIN).
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Avances normativos relevantes
 
@@ -43,15 +43,19 @@
                 i.fas.fa-lightbulb.icon-list
                 p.mb-0  Regular la #[b remuneración de los prestadores del servicio] en las ZNI.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/3.png', alt='')
+          img(src='@/assets/curso/temas/t2/3.png')
 
 
 
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Plan Nacional de Electrificación Rural (PNER) y los PERS
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+        .col-lg-12
+          img(src='@/assets/curso/temas/t2/6.png')
 
       p.mb-5(data-aos="fade-right") Posteriormente, mediante la #[b Ley 884 de 2017], se desarrolló el #[b Plan Nacional de Electrificación Rural (PNER)], enmarcado en el Acuerdo Final para la Terminación del Conflicto en Colombia. Este plan tiene como propósito garantizar el #[b acceso universal a la energía eléctrica], con énfasis en las zonas rurales dispersas que se encuentran fuera del SIN.
 
@@ -69,18 +73,16 @@
                 i.fas.fa-check.icon-list
                 p.mb-0 La identificación de iniciativas productivas y necesidades de desarrollo local.
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/4.svg', alt='')
+          img(src='@/assets/curso/temas/t2/4.svg')
         .col-sm-12.col-lg-3
-          img.w-25.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/5.svg', alt='')
+          img.w-25.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t2/5.svg')
           p.mb-0 A partir de este análisis, los PERS permiten formular proyectos energéticos y construir un #[b portafolio de iniciativas] a corto, mediano y largo plazo, alineado con la política energética nacional.
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-12
-          img(src='@/assets/curso/temas/t2/6.png', alt='')
+      
 
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Enfoque y alcance de los PERS
 
@@ -88,7 +90,7 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/7.png', alt='')
+          img(src='@/assets/curso/temas/t2/7.png')
         .col-sm-12.col-lg-9
             p.mb-3 La metodología de los PERS se caracteriza por:
             ul.lista-ul--color.mb-2
@@ -124,12 +126,12 @@
           .bg-color-1.p-4.mb-4
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-2.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t2/10.svg', alt='')
+                img(src='@/assets/curso/temas/t2/10.svg')
               .col-sm-12.col-lg-10
                   p.mb-0 El PIEC establece que la elección de la tecnología para extender el acceso al servicio de energía eléctrica depende de la evaluación integral de múltiples parámetros, que abarcan dimensiones #[b sociales, técnicas y económicas]. Entre estos factores se incluyen, por ejemplo, el nivel objetivo de acceso a la energía, la densidad poblacional, la distancia a la red eléctrica nacional y la disponibilidad de recursos energéticos locales. Dado que estos parámetros presentan una naturaleza espacial, el uso de #[b información geoespacial] resulta fundamental para su análisis y aplicación tanto a escala regional como nacional.
           p.mb-0 A partir de estos criterios, el PIEC 2019 – 2023 define un esquema de evaluación que orienta la selección del tipo de solución tecnológica más apropiada para la ampliación de la cobertura del servicio de energía eléctrica. En el siguiente gráfico se presenta el proceso de evaluación utilizado por el PIEC para determinar la alternativa de electrificación que mejor se ajusta a las condiciones de cada territorio.  
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/9.png', alt='')
+          img(src='@/assets/curso/temas/t2/9.png')
 
       .bg-color-1.p-4.mb-2.br-1(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5
@@ -145,16 +147,16 @@
         .col-sm-12.col-lg-9
           .row.justify-content-center.mb-4
             .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-                img(src='@/assets/curso/temas/t2/12.svg', alt='')
+                img(src='@/assets/curso/temas/t2/12.svg')
             .col-sm-12.col-lg-7.p-4.bg-color-4       
               p.mb-0 La metodología del #[b PIEC] se fundamenta en la comparación de diferentes alternativas para la prestación del servicio de energía eléctrica, con el fin de identificar la opción más viable para las viviendas que, a corte del año 2018, no contaban con acceso a este servicio. Las alternativas evaluadas incluyen: i) la #[b interconexión al Sistema Interconectado Nacional (SIN)]; ii) la implementación de #[b microrredes], que pueden basarse en generación con plantas térmicas diésel, sistemas solares fotovoltaicos o soluciones híbridas; y iii) #[b soluciones aisladas individuales].
           p.mb-0 Este enfoque comparativo permite seleccionar la alternativa técnica y económicamente más adecuada, de acuerdo con las condiciones específicas de cada territorio.
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/13.png', alt='')
+          img(src='@/assets/curso/temas/t2/13.png')
 
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Clasificación de las entidades clave del sector energético
       p.mb-5(data-aos="fade-right") El sector energético colombiano cuenta con entidades estratégicas que cumplen funciones específicas en la formulación de políticas, la planeación, la promoción de proyectos y la regulación del servicio de energía eléctrica. Entre las principales se destacan:
@@ -164,7 +166,7 @@
           .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .crd_hover_txt--img
-                img(src="@/assets/curso/temas/t2/17.png", alt="")
+                img(src="@/assets/curso/temas/t2/17.png")
             .crd_hover_txt--body.text-center
               h4.mb-3 Ministerio de Minas y Energía (MME) y Unidad de Planeación Minero Energética (UPME)
               p.mb-0 El MME es el ente rector de la política energética del país y define los lineamientos estratégicos del sector. Por su parte, la UPME apoya esta labor mediante la planeación técnica y la elaboración de estudios que orientan la expansión de la cobertura, la asignación de recursos y el desarrollo del sistema energético nacional.
@@ -174,14 +176,14 @@
           .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
             .crd_hover_txt--img
-                img(src="@/assets/curso/temas/t2/18.png", alt="")
+                img(src="@/assets/curso/temas/t2/18.png")
             .crd_hover_txt--body.text-center
               h4.mb-4 Instituto de Planificación y Promoción de Soluciones Energéticas (IPSE)
               p.mb-0 El IPSE cumple un papel fundamental como promotor y articulador de proyectos de electrificación en las Zonas No Interconectadas (ZNI), impulsando soluciones energéticas sostenibles, especialmente basadas en Fuentes No Convencionales de Energía Renovable (FNCER).
         .col-sm-12.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
           .crd_hover_txt(@mouseover="mostrarIndicador = false")
             .crd_hover_txt--img
-                img(src="@/assets/curso/temas/t2/19.png", alt="")
+                img(src="@/assets/curso/temas/t2/19.png")
             .crd_hover_txt--body.text-center
               h4.mb-4 Comisión de Regulación de Energía y Gas (CREG)
               p.mb-0 La CREG actúa como el organismo regulador del sector, encargado de establecer las normas, metodologías tarifarias y condiciones de prestación del servicio de energía eléctrica, garantizando eficiencia, calidad y sostenibilidad económica, particularmente en las ZNI.
@@ -197,25 +199,25 @@
               th Función específica en ZNI
           tbody
             tr
-              td.fw-bold Ministerio de Minas y Energía (MME)
+              td Ministerio de Minas y Energía (MME)
               td Rector y definición de políticas.
               td Define la política energética, establece metas de cobertura (como el PNER) y gestiona los recursos de financiación para ZNI.
             tr
-              td.fw-bold Unidad de Planeación Minero Energética (UPME)
+              td Unidad de Planeación Minero Energética (UPME)
               td Planeador técnico.
               td Realiza estudios y proyecciones. Es responsable de elaborar el Plan Indicativo de Cobertura (PIC), identificando las áreas prioritarias para la inversión en electrificación.
             tr
-              td.fw-bold Instituto de Planificación y Promoción de Soluciones Energéticas (IPSE)
+              td Instituto de Planificación y Promoción de Soluciones Energéticas (IPSE)
               td Promotor y ejecutor.
               td Entidad dedicada exclusivamente a las ZNI. Promueve, asesora  y participa en la ejecución de proyectos de energización sostenible en estas zonas, actuando como el brazo técnico del Estado para la cobertura rural.
             tr
-              td.fw-bold Comisión de Regulación de Energía y Gas (CREG)
+              td Comisión de Regulación de Energía y Gas (CREG)
               td Regulador económico y técnico.
               td Define las reglas de juego y la metodología tarifaria. Regula las tarifas que se cobran a los usuarios y los parámetros de calidad del servicio.
 
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Fundamentos de la política pública:
 
@@ -223,21 +225,21 @@
       .row.align-items-center.mb-0(data-aos="fade-right")
         .col-sm-12.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/14.svg' alt='')
+            img(src='@/assets/curso/temas/t2/14.svg')
             .tarjeta.bg-color-6
               .p-4
                 h4.text-center Plan Nacional de Electrificación Rural (PNER)
                 p.mb-0.text-center Establece las metas de cobertura para llevar el servicio de energía eléctrica a la población rural dispersa, priorizando soluciones descentralizadas y sostenibles en las Zonas No Interconectadas (ZNI).
         .col-sm-12.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/15.svg' alt='')
+            img(src='@/assets/curso/temas/t2/15.svg')
             .tarjeta.bg-color-6
               .p-4
                 h4.text-center Fuentes No Convencionales de Energía Renovable (FNCER)
                 p.mb-0.text-center La normativa colombiana promueve el uso de energías como la solar, eólica y biomasa mediante incentivos fiscales y financieros, reconociéndolas como la alternativa más viable para cerrar la brecha energética en las ZNI.
         .col-sm-12.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/16.svg' alt='')
+            img(src='@/assets/curso/temas/t2/16.svg')
             .tarjeta.bg-color-6
               .p-4
                 h4.text-center Objetivo estratégico

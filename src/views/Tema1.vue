@@ -14,19 +14,20 @@
         .bloque-texto-g__texto.p-4.d-flex.flex-column.br-1
           .row.justify-content-center.mb-2.d-flex.flex-row.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t1/2.svg', alt='')
+              img(src='@/assets/curso/temas/t1/2.svg')
             .col-sm-12.col-lg-10
-                p.mb-3 Este componente formativo introduce la pertinencia del curso, al definir el panorama energético de Colombia y fundamentar la necesidad de promover soluciones basadas en fuentes renovables. Uno de los principales retos del país, y de vital importancia para el desarrollo territorial, es garantizar un suministro de energía eléctrica confiable, continuo y sostenible para las comunidades rurales y poblaciones apartadas que actualmente no cuentan con este servicio.
+                p.mb-3 Este componente formativo introduce la pertinencia del curso, al definir el panorama energético de Colombia y fundamentar la necesidad de promover soluciones basadas en fuentes renovables. 
+          p.mb-0 Uno de los principales retos del país, y de vital importancia para el desarrollo territorial, es garantizar un suministro de energía eléctrica confiable, continuo y sostenible para las comunidades rurales y poblaciones apartadas que actualmente no cuentan con este servicio.
           p.mb-0 El acceso a la energía constituye un servicio público esencial y un factor determinante para el desarrollo socioeconómico, la reducción de brechas y el mejoramiento de la calidad de vida en estas regiones.
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/4.png', alt='')
+          img(src='@/assets/curso/temas/t1/4.png')
         .col-sm-12.col-lg-8
             p.mb-3 La limitada cobertura energética en zonas rurales y cabeceras municipales aisladas obedece, en gran medida, a la ausencia de infraestructura adecuada, los altos costos de implementación, las grandes distancias y las condiciones geográficas de difícil acceso. Estas restricciones han impedido la consolidación de sistemas energéticos robustos que garanticen la prestación del servicio de manera eficiente y sostenible. Frente a este escenario, el componente aborda el desafío de la electrificación rural mediante la formulación de una metodología ágil y sencilla orientada a la selección de alternativas energéticas apropiadas para territorios que aún no cuentan con suministro eléctrico.
             .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-2.d-none.d-lg-block
-                img.w-75.m-auto(src='@/assets/curso/temas/t1/3.svg', alt='')
+                img.w-75.m-auto(src='@/assets/curso/temas/t1/3.svg')
               .col-sm-12.col-lg-10
                   p.mb-0 La metodología propuesta contempla el análisis integral de factores técnicos, económicos, ambientales y sociales, lo cual permite establecer bases sólidas para evaluar las diferentes opciones de generación energética disponibles en cada territorio. Este enfoque facilita la toma de decisiones informadas, articulando las condiciones locales, la información existente y las necesidades específicas de cada comunidad rural, con el fin de identificar la alternativa energética más adecuada.
       .bg-color-2.p-4.mb-5.br-1(data-aos="fade-right")
@@ -36,7 +37,7 @@
       
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Energía y desarrollo sostenible
       
@@ -47,7 +48,7 @@
           .bg-color-3.p-5.br-1
             p.mb-0 En este sentido, la sostenibilidad energética tiene como propósito alcanzar un equilibrio armónico entre tres dimensiones interdependientes: la #[b social], orientada a garantizar el acceso equitativo y universal a la energía; la #[b económica], enfocada en asegurar la viabilidad financiera y la eficiencia del suministro a largo plazo; y la #[b ambiental], dirigida a minimizar los impactos ecológicos mediante el uso responsable de los recursos y la promoción de fuentes de energía limpias y renovables. La articulación de estas dimensiones permite avanzar hacia modelos energéticos que contribuyan al desarrollo sostenible y a la reducción de las brechas sociales y territoriales.
         .col-sm-12.col-lg-6.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/5.svg', alt='')
+          img(src='@/assets/curso/temas/t1/5.svg')
       
       p.mb-5(data-aos="fade-right") En este contexto, la meta de la sostenibilidad energética busca lograr un equilibrio entre tres pilares interdependientes:
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -60,17 +61,17 @@
               th.text-start Descripción
           tbody
             tr
-              td.text-start.fw-bold Social
+              td.text-start Social
               td.text-start Garantizar la equidad y el acceso universal a la energía, asegurando la asequibilidad y la calidad del servicio, con el fin de mejorar la calidad de vida y promover el desarrollo social de las comunidades.
             tr
-              td.text-start.fw-bold Económico
+              td.text-start Económico
               td.text-start Asegurar que el suministro energético sea económicamente viable y sostenible a largo plazo, reduciendo la dependencia de fuentes de energía costosas y volátiles, y optimizando los recursos disponibles.
             tr
-              td.text-start.fw-bold Ambiental
+              td.text-start Ambiental
               td.text-start Minimizar el impacto ecológico mediante la priorización del uso de fuentes de Energía Renovable No Convencionales (ERNC), contribuyendo a la reducción de las emisiones de Gases de Efecto Invernadero (GEI) y de la contaminación ambiental local.
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 El contexto de las Zonas No Interconectadas (ZNI)
 
@@ -86,13 +87,13 @@
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/7.png', alt='')
+          img(src='@/assets/curso/temas/t1/7.png')
         .col-sm-12.col-lg-8
           p.mb-5 Las Zonas No Interconectadas (ZNI) en Colombia corresponden a un aproximado del 53 % del territorio nacional, correspondiente a cuatro (4) departamentos totalmente ZNI, catorce (14) con regiones ZNI - SIN, setenta y siete (77) municipios ZNI y dieciséis (16) áreas no municipalizadas, de acuerdo con lo reportado por el Centro Nacional de Monitoreo (CNM) para 2023.
           .bg-color-1.p-4.mb-4
-            .row.justify-content-center.mb-0
+            .row.justify-content-center.align-items-center.mb-0
               .col-sm-12.col-lg-2.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/6.svg', alt='')
+                img(src='@/assets/curso/temas/t1/6.svg')
               .col-sm-12.col-lg-10
                   p.mb-0 De acuerdo con el CNM, para el año 2023 se identificaron 1750 localidades ZNI, sin embargo, únicamente se realizó el monitoreo de aproximadamente 252.000 usuarios residenciales rurales, correspondiente a 134 localidades, es decir el 11 % del total, en su mayoría atendidos por sistemas de generación con diésel como combustible, esto teniendo en cuenta que en su mayoría cuentan con una densidad poblacional importante, lo que genera facilidad de acceso para la información.
           p.mb-0 Cabe destacar que para las localidades que cuentan con seguimiento del CNM, únicamente el 34 % de los usuarios reportan 24 horas continuas de servicio de energía eléctrica, y con mayor proporción en un promedio de 5 a 10 horas diarias se reportan cerca del 41 % de los usuarios centralizados.
@@ -121,22 +122,20 @@
             .bg-color-1.p-4.mb-0.br-1
               .row.justify-content-center.mb-0.align-items-center
                 .col-sm-12.col-lg-1.d-none.d-lg-block
-                  img(src='@/assets/curso/temas/t1/10.svg', alt='')
+                  img(src='@/assets/curso/temas/t1/10.svg')
                 .col-sm-12.col-lg-11
                     p.mb-0 Según los datos reportados por CNM, la matriz energética en ZNI se compone principalmente por generación con combustibles fósiles en un 84 %, mientras que el restante es asumido por Fuentes No Convencionales de Energía Renovable (FNCER) siendo mayoritariamente implementados Sistemas Individuales Solares Fotovoltaicos (SISFV), tal como se aprecia en la Figura 2.
             
 
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-12
-          img(src='@/assets/curso/temas/t1/12.png', alt='')
+      
 
-      .bg-color-1.p-4.mb-2.br-1(data-aos="fade-right")
+      .bg-color-8.p-4.mb-2.br-1(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 2. 
           span Matriz energética en las ZNI 
         .row.justify-content-center.align-items-center.mb-0
-          .col-sm-12.col-lg-8     
+          .col-sm-12.col-lg-11    
             figure
               img(src='@/assets/curso/temas/t1/11.svg', alt='Muestra la matriz eléctrica ZNI, con una capacidad instalada total de 311.439 kW. El gráfico circular de la izquierda indica la fuerte dependencia de los combustibles fósiles, pues la Capacidad Diésel domina con 262.433 kW (84 %). En contraste, la Capacidad FNCER (Fuentes No Convencionales de Energía Renovable) es de solo 49.006 kW (16 %). Al analizar el desglose de las FNCER (lado derecho), se observa que la mayor contribución proviene de los Sistemas Solares Fotovoltaicos Individuales (SISFV) con 34.109 kW (70 % del total FNCER), seguidos en menor medida por la Solar Centralizada, Biomasa, Pequeñas Centrales Hidroeléctricas (PCH) y la generación a partir de Residuos Sólidos Urbanos (RSU).')
       figcaption.mb-5 #[b Fuente:] IPSE. (2023). Caracterización de las ZNI. Instituto de Planificación y Promoción de Soluciones Energéticas para las Zonas No Interconectadas. 
@@ -144,14 +143,14 @@
 
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
-          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+          img(src='@/assets/curso/temas/bg/1.svg')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Consecuencias de la falta de energía continua
 
 
       .tarjeta--container.row.mb-5.bg-color-3(data-aos="fade-right")
         .col-md.tarjeta.d-none.d-lg-block
-            img(src='@/assets/curso/temas/t1/13.png', alt='')
+            img(src='@/assets/curso/temas/t1/13.png')
         .col-md.tarjeta.p-5
           .row.justify-content-start.mb-3.d-none.d-lg-block
             .col-2
@@ -168,7 +167,7 @@
           p.mb-0 Desde el punto de vista socioeconómico, la falta de un suministro continuo afecta de manera directa sectores clave como la salud y la educación, al limitar la refrigeración de vacunas y medicamentos, así como el uso de tecnologías y la ampliación de los horarios académicos. De igual forma, la baja disponibilidad energética impide el funcionamiento de microempresas, sistemas de refrigeración de alimentos y procesos productivos locales, reduciendo las oportunidades de generación de ingresos y el aprovechamiento de las cosechas.
           p.mb-0 En el ámbito ambiental, el uso permanente de plantas diésel genera emisiones contaminantes, ruido y riesgos asociados al transporte y almacenamiento de combustibles, lo cual resulta especialmente crítico en ecosistemas frágiles y de alto valor ambiental.
         .col-sm-12.col-lg-5.d-none.d-lg-block.px-0
-            img(src='@/assets/curso/temas/t1/15.svg', alt='')
+            img(src='@/assets/curso/temas/t1/15.svg')
 
 
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -182,7 +181,7 @@
               th.text-start Descripción
           tbody
             tr
-              td.text-start.br-2.fw-bold(rowspan="2").bg-color-5 Técnica / operativa
+              td.text-start.br-2(rowspan="2").bg-color-5 Técnica / operativa
               td.text-start.br-2 Generación intermitente.
               td.text-start.br-3 Suministro eléctrico limitado a pocas horas diarias (4 a 6 horas), lo que restringe el uso continuo y productivo de la energía.
             tr
@@ -190,7 +189,7 @@
               td.text-start.br-3 Dependencia del diésel con altos costos de transporte, lo que incrementa significativamente el precio final del kWh frente al SIN.  
 
             tr
-              td.text-start.br-2.fw-bold(rowspan="2").bg-color-5 Socioeconómica
+              td.text-start.br-2(rowspan="2").bg-color-5 Socioeconómica
               td.text-start.br-2 Afectaciones en salud y educación.
               td.text-start.br-3 Limitaciones para la refrigeración de medicamentos y vacunas, y reducción del acceso a tecnologías y horarios extendidos en centros educativos.
             tr
@@ -198,7 +197,7 @@
               td.text-start.br-3 Imposibilidad de operar microempresas, conservar alimentos y desarrollar actividades económicas sostenibles.
 
             tr
-              td.text-start.br-2.fw-bold.bg-color-5 Ambiental
+              td.text-start.br-2.bg-color-5 Ambiental
               td.text-start.br-2 Contaminación y riesgos ambientales.
               td.text-start.br-3 Emisiones atmosféricas y acústicas, junto con riesgos por manejo de combustibles en ecosistemas sensibles.
             

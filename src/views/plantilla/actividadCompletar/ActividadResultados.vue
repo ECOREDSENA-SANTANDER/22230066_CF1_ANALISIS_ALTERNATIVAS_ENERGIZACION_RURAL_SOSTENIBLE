@@ -1,26 +1,10 @@
 <template>
   <div class="row align-items-center justify-content-around">
     <div class="col-lg-5">
-      <img
-        v-if="aprobado"
-        src="@/assets/componentes/cuestionario-resultado.svg"
-        alt=""
-        class="mx-auto d-none d-lg-block"
-      />
-      <img
-        v-else
-        src="@/assets/componentes/cuestionario-resultado.svg"
-        alt=""
-        class="mx-auto d-none d-lg-block"
-      />
-    </div>
-    <div class="col-lg-4">
-      <div class="d-flex align-items-center flex-column">
-        <div class="circle-container mb-4">
-          <svg class="circle" viewBox="0 0 36 36">
-            <defs>
-              <linearGradient
-                id="progressGradient"
+      <img v-if="aprobado" src="@/assets/componentes/cuestionario-resultado.svg"
+      class="mx-auto d-none d-lg-block" /> <img v-else
+      id="progressGradient"
+      src="@/assets/componentes/cuestionario-resultado.svg"           class="mx-auto d-none d-lg-block"
                 x1="0%"
                 y1="0%"
                 x2="100%"
